@@ -49,10 +49,10 @@ export function Pains() {
             </li>
           ))}
         </ul>
-        <p className=" font-bold   bg-[#e7f0eb] p-7 rounded-md mb-10 text-2xl mt-10 flex items-center justify-center">
-          Se você sente tudo isso, você não está sozinho. E o melhor:{" "}
-          <span className=" ml-2 text-green-800">existe solução</span>.
-        </p>
+       <p className="font-bold bg-[#e7f0eb] p-5 sm:p-7 rounded-md mb-10 text-lg sm:text-2xl mt-10 flex flex-col sm:flex-row items-center justify-center text-center sm:text-left">
+  Se você sente tudo isso, você não está sozinho. E o melhor:
+  <span className="sm:ml-2 text-green-800">existe solução</span>.
+</p>
       </div>
     </main>
   );
