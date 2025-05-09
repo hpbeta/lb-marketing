@@ -48,7 +48,6 @@ export function Header() {
         </a>
       </nav>
 
-      {/* Menu mobile dropdown */}
       {isOpen && (
         <nav className="absolute top-20 left-0 w-full bg-white flex flex-col gap-4 items-center py-6 shadow-md md:hidden">
           {links.map(({ href, label }) => (

@@ -1,17 +1,17 @@
-
-
 import reuniao from "../../assets/reuniao.jpg";
 
 export function AboutUs() {
   return (
-    <main id="quemsomos" className="flex flex-col items-center mt-1 mb-20 px-4 sm:px-8 lg:px-20">
+    <main
+      id="quemsomos"
+      className="flex flex-col items-center mt-1 mb-20 px-4 sm:px-8 lg:px-20"
+    >
       <h1 className="font-bold my-24 text-3xl mb-10 relative group text-center sm:text-left">
         Quem Somos – LB Marketing
         <div className="w-0 group-hover:w-32 transition-all duration-300 border-b-2 border-green-800 mx-auto sm:mx-0 mt-2"></div>
       </h1>
 
       <div className="flex flex-col items-center sm:flex-row sm:gap-10 w-full">
-        {/* Imagem */}
         <div className="w-full sm:w-1/2 h-auto mb-10 sm:mb-0">
           <img
             src={reuniao}
@@ -20,7 +20,6 @@ export function AboutUs() {
           />
         </div>
 
-        {/* Texto */}
         <div className="w-full sm:w-1/2 flex flex-col items-center sm:items-start">
           <p className="text-lg font-semibold mb-5 w-full sm:w-[600px] text-gray-800 leading-relaxed text-center sm:text-left">
             Somos uma consultoria com foco em performance. Há mais de 4 anos no
@@ -34,9 +33,9 @@ export function AboutUs() {
             clientes qualificados e melhorar as taxas de conversão.
           </p>
           <p className="text-lg mb-5 font-semibold w-full sm:w-[600px] text-gray-800 leading-relaxed text-center sm:text-left">
-            Nosso time é composto por especialistas em marketing digital, análise de dados e
-            estratégias de crescimento, sempre buscando soluções inovadoras para
-            cada cliente.
+            Nosso time é composto por especialistas em marketing digital,
+            análise de dados e estratégias de crescimento, sempre buscando
+            soluções inovadoras para cada cliente.
           </p>
           <p className="text-lg mb-5 font-semibold w-full sm:w-[600px] text-gray-800 leading-relaxed text-center sm:text-left">
             Nós entregamos resultados reais, mensuráveis e sustentáveis, que

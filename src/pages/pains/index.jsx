@@ -28,11 +28,14 @@ const dores = [
 ];
 export function Pains() {
   return (
-    <main id="problemas" className="flex flex-col items-center justify-start mt-10">
-      <h1 className="font-bold text-3xl mb-10 relative group text-center ">As Dores do Seu Negócio Hoje
-       <div className="w-0 group-hover:w-32 transition-all duration-300 border-b-2 border-green-800 mx-auto mt-2"></div>
+    <main
+      id="problemas"
+      className="flex flex-col items-center justify-start mt-10"
+    >
+      <h1 className="font-bold text-3xl mb-10 relative group text-center ">
+        As Dores do Seu Negócio Hoje
+        <div className="w-0 group-hover:w-32 transition-all duration-300 border-b-2 border-green-800 mx-auto mt-2"></div>
       </h1>
-      
 
       <div>
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -49,10 +52,10 @@ export function Pains() {
             </li>
           ))}
         </ul>
-       <p className="font-bold bg-[#e7f0eb] p-5 sm:p-7 rounded-md mb-10 text-lg sm:text-2xl mt-10 flex flex-col sm:flex-row items-center justify-center text-center sm:text-left">
-  Se você sente tudo isso, você não está sozinho. E o melhor:
-  <span className="sm:ml-2 text-green-800">existe solução</span>.
-</p>
+        <p className="font-bold bg-[#e7f0eb] p-5 sm:p-7 rounded-md mb-10 text-lg sm:text-2xl mt-10 flex flex-col sm:flex-row items-center justify-center text-center sm:text-left">
+          Se você sente tudo isso, você não está sozinho. E o melhor:
+          <span className="sm:ml-2 text-green-800">existe solução</span>.
+        </p>
       </div>
     </main>
   );

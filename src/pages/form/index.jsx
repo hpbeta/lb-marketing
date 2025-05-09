@@ -21,7 +21,7 @@ export function ContactForm() {
       <div className="container mx-auto max-w-2xl">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 text-gray-800 relative group">
           Solicite Sua Análise Gratuita
-         <div className="w-0 group-hover:w-32 transition-all duration-300 border-b-2 border-green-800 mx-auto mt-2"></div>
+          <div className="w-0 group-hover:w-32 transition-all duration-300 border-b-2 border-green-800 mx-auto mt-2"></div>
         </h2>
 
         <div className="bg-white p-6 md:p-8 rounded-lg shadow-lg">
@@ -99,7 +99,9 @@ export function ContactForm() {
             <button
               type="submit"
               className=" m-auto block text-white font-bold bg-green-800 hover:bg-green-500 hover:text-white py-3 px-5 rounded-md transition-colors duration-300"
-            >Quero mais cliente com tráfego pago</button>
+            >
+              Quero mais cliente com tráfego pago
+            </button>
           </form>
         </div>
       </div>

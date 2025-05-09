@@ -2,11 +2,10 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 
 export function FloatingButton() {
-  const [isVisible, setIsVisible] = useState(true); // Já começa visível
-
+  const [isVisible, setIsVisible] = useState(true);
   useEffect(() => {
     const handleScroll = () => {
-      setIsVisible(true); // Sempre visível. Ajuste se quiser esconder no topo.
+      setIsVisible(true);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -23,15 +22,13 @@ export function FloatingButton() {
   if (!isVisible) return null;
 
   return (
-    <div
-      className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-40 animate-float"
-    >
+    <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-40 animate-float">
       <Button
         onClick={scrollToForm}
         className="shadow-lg text-white font-medium rounded-full bg-green-800 hover:bg-green-700"
         style={{
-          padding: "0.5rem 1rem", // mobile (8px 16px)
-          fontSize: "0.875rem", // 14px
+          padding: "0.5rem 1rem",
+          fontSize: "0.875rem",
         }}
       >
         Quero Orçar Agora
