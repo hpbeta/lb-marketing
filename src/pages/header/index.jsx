@@ -72,7 +72,7 @@ export function Header() {
   ];
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-lg px-6 md:px-12 h-20 flex justify-between items-center">
+    <header className="fixed overflow-x-hidden top-0 left-0 w-full z-50 bg-white shadow-lg px-6 md:px-12 h-20 flex justify-between items-center">
       <div className="logo">
         <a href="/">
           <img src={logo} alt="Logo tipo LB Marketing" className="w-32" />
