@@ -2,41 +2,48 @@ import logo from "../../assets/lb-marketing.png";
 
 export function Header() {
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-lg py-6 px-12 flex justify-between items-center">
+    <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-lg px-12 flex justify-between items-center">
       <div className="logo">
-        <img src={logo} alt="Logo tipo LB Marketing" className="w-32" />
+        <a href="/">
+          <img src={logo} alt="Logo tipo LB Marketing" className="w-32" />
+        </a>
       </div>
 
       <nav className="flex gap-6">
         <a 
           href="#problemas" 
-          className="text-gray-800 hover:text-white hover:bg-green-500 py-1 px-3 rounded-md transition-colors duration-300"
+          className="relative text-gray-800 py-1 px-3 rounded-md group transition-colors duration-300"
         >
           Problemas
+          <div className="absolute bottom-0 left-0 w-0 group-hover:w-full transition-all duration-300 border-b-2 border-green-800"></div>
         </a>
         <a 
           href="#quemsomos" 
-          className="text-gray-800 hover:text-white hover:bg-green-500 py-1 px-3 rounded-md transition-colors duration-300"
+          className="relative text-gray-800 py-1 px-3 rounded-md group transition-colors duration-300"
         >
           Quem somos
+          <div className="absolute bottom-0 left-0 w-0 group-hover:w-full transition-all duration-300 border-b-2 border-green-800"></div>
         </a>
         <a 
           href="#servicos" 
-          className="text-gray-800 hover:text-white hover:bg-green-500 py-1 px-3 rounded-md transition-colors duration-300"
+          className="relative text-gray-800 py-1 px-3 rounded-md group transition-colors duration-300"
         >
           Serviços
+          <div className="absolute bottom-0 left-0 w-0 group-hover:w-full transition-all duration-300 border-b-2 border-green-800"></div>
         </a>
         <a 
           href="#resultados" 
-          className="text-gray-800 hover:text-white hover:bg-green-500 py-1 px-3 rounded-md transition-colors duration-300"
+          className="relative text-gray-800 py-1 px-3 rounded-md group transition-colors duration-300"
         >
           Resultados
+          <div className="absolute bottom-0 left-0 w-0 group-hover:w-full transition-all duration-300 border-b-2 border-green-800"></div>
         </a>
         <a 
           href="#contato" 
-          className="text-gray-800 hover:text-white hover:bg-green-500 py-1 px-3 rounded-md transition-colors duration-300"
+          className="relative text-gray-800 py-1 px-3 rounded-md group transition-colors duration-300"
         >
           Contato
+          <div className="absolute bottom-0 left-0 w-0 group-hover:w-full transition-all duration-300 border-b-2 border-green-800"></div>
         </a>
         <a 
           href="#orcamento" 

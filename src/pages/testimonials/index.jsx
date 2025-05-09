@@ -25,8 +25,9 @@ export  function Testimonials() {
   return (
     <section className="py-16 px-4">
       <div className="container mx-auto max-w-5xl">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-12 text-gray-800">
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-12 text-gray-800 relative group">
           Resultados e Depoimentos
+          <div className="w-0 group-hover:w-32 transition-all duration-300 border-b-2 border-green-800 mx-auto mt-2"></div>
         </h2>
         
         <div className="mb-16">

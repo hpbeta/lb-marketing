@@ -31,8 +31,9 @@ export  function Services() {
   return (
     <section className="py-16 px-4 bg-gray-50">
       <div className="container mx-auto max-w-5xl">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-12 text-gray-800">
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-12 text-gray-800  relative group">
           O Que Vamos Fazer por Você
+          <div className="w-0 group-hover:w-32 transition-all duration-300 border-b-2 border-green-800 mx-auto mt-2"></div>
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -19,8 +19,9 @@ export function ContactForm() {
   return (
     <section id="contact-form" className="py-16 px-4">
       <div className="container mx-auto max-w-2xl">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 text-gray-800">
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 text-gray-800 relative group">
           Solicite Sua Análise Gratuita
+         <div className="w-0 group-hover:w-32 transition-all duration-300 border-b-2 border-green-800 mx-auto mt-2"></div>
         </h2>
 
         <div className="bg-white p-6 md:p-8 rounded-lg shadow-lg">

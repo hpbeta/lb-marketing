@@ -7,7 +7,7 @@ export  function Action() {
   };
 
   return (
-    <section className="py-16 px-4 bg-[hsla(222.2,47.4%,11.2%,0.04)]">
+    <section className="py-16 px-4 bg-green-50">
       <div className="container mx-auto max-w-4xl text-center">
         <h2 className="text-2xl md:text-3xl font-bold mb-6 text-gray-800">
           💥 Agenda Limitada para Diagnósticos Gratuitos!

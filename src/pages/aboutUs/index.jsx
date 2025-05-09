@@ -3,7 +3,9 @@ import reuniao from "../../assets/reuniao.jpg";
 export function AboutUs() {
   return (
     <main className="flex flex-col items-center mt-1 mb-20 p-20">
-      <h1 className="font-bold text-3xl mb-20">Quem Somos – LB Marketing</h1>
+      <h1 className="font-bold text-3xl mb-20 relative group">Quem Somos – LB Marketing
+        <div className="w-0 group-hover:w-32 transition-all duration-300 border-b-2 border-green-800 mx-auto mt-2"></div>
+      </h1>
 
       <div className="flex  items-center justify-center w-full flex-col md:flex-row">
         <div className="w-full md:w-1/2 h-[400px]">

@@ -7,14 +7,14 @@ export function Hero() {
       <p className="text-lg text-center md:text-xl text-gray-700 mb-8 leading-relaxed max-w-3xl">
         Poucas curtidas, comentários quase inexistentes, alcance despencando e nenhuma solicitação no WhatsApp? Isso não é coincidência — é falta de estratégia profissional em tráfego pago.
       </p>
-      <p className="font-bold text-2xl text-center text-gray-800 bg-[#e7f0eb] rounded-lg p-6">🚀 A LB Marketing transforma seguidores em clientes com campanhas que vendem todos os dias.</p>
+      <p className="font-bold text-2xl text-center  bg-[#e7f0eb] text-green-800 rounded-lg p-6">🚀 A LB Marketing transforma seguidores em clientes com campanhas que vendem todos os dias.</p>
     <p className="font-medium mt-7 text-lg">👉 Clique no botão abaixo e receba um diagnóstico gratuito da sua presença digital!</p>
 
      <a 
           href="#orcamento" 
           className="text-white font-bold mt-8 bg-green-800 hover:bg-green-500 hover:text-white  px-8 py-3 text-lg  rounded-md transition-colors duration-300"
         >
-          Quero mais cliente agora ->
+          Quero mais cliente agora -{">"}
         </a>
     </main>
   );
