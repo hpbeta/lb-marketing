@@ -11,10 +11,12 @@ import { Testimonials } from './pages/testimonials';
 import { Action } from './pages/action';
 import { ContactForm } from './pages/form';
 import { Footer } from './pages/footer';
+import { FloatingButton } from './buttonFloat';
 
 function App() {
   return (
     <>
+    <FloatingButton />
       <Header />
       <Routes>
         <Route
