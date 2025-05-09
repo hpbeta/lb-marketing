@@ -8,7 +8,7 @@ export function Hero() {
         Poucas curtidas, comentários quase inexistentes, alcance despencando e nenhuma solicitação no WhatsApp? Isso não é coincidência — é falta de estratégia profissional em tráfego pago.
       </p>
       <p className="font-bold text-2xl text-center  bg-[#e7f0eb] text-green-800 rounded-lg p-6">🚀 A LB Marketing transforma seguidores em clientes com campanhas que vendem todos os dias.</p>
-    <p className="font-medium mt-7 text-lg">👉 Clique no botão abaixo e receba um diagnóstico gratuito da sua presença digital!</p>
+    <p className="font-medium mt-7 text-lg text-center">👉 Clique no botão abaixo e receba um diagnóstico gratuito da sua presença digital!</p>
 
      <a 
           href="#orcamento" 
