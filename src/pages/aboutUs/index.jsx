@@ -47,7 +47,7 @@ import reuniao from "../../assets/reuniao.jpg";
 
 export function AboutUs() {
   return (
-    <main className="flex flex-col items-center mt-1 mb-20 px-4 sm:px-8 lg:px-20">
+    <main id="quemsomos" className="flex flex-col items-center mt-1 mb-20 px-4 sm:px-8 lg:px-20">
       <h1 className="font-bold text-3xl mb-10 relative group text-center sm:text-left">
         Quem Somos – LB Marketing
         <div className="w-0 group-hover:w-32 transition-all duration-300 border-b-2 border-green-800 mx-auto sm:mx-0 mt-2"></div>

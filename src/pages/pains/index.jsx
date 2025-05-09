@@ -28,7 +28,7 @@ const dores = [
 ];
 export function Pains() {
   return (
-    <main className="flex flex-col items-center justify-start mt-10">
+    <main id="problemas" className="flex flex-col items-center justify-start mt-10">
       <h1 className="font-bold text-3xl mb-10 relative group text-center ">As Dores do Seu Negócio Hoje
        <div className="w-0 group-hover:w-32 transition-all duration-300 border-b-2 border-green-800 mx-auto mt-2"></div>
       </h1>

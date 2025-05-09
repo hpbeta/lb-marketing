@@ -23,7 +23,7 @@ export  function Testimonials() {
   ];
 
   return (
-    <section className="py-16 px-4">
+    <section id="resultados" className="py-16 px-4">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-12 text-gray-800 relative group">
           Resultados e Depoimentos

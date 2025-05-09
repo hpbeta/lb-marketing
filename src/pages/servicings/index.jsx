@@ -29,7 +29,7 @@ export  function Services() {
   ];
 
   return (
-    <section className="py-16 px-4 bg-gray-50">
+    <section id="servicos" className="py-16 px-4 bg-gray-50">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-12 text-gray-800  relative group">
           O Que Vamos Fazer por Você

@@ -17,7 +17,7 @@ export function ContactForm() {
   ];
 
   return (
-    <section id="contact-form" className="py-16 px-4">
+    <section id="contato" className="py-16 px-4">
       <div className="container mx-auto max-w-2xl">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 text-gray-800 relative group">
           Solicite Sua Análise Gratuita
