@@ -11,6 +11,7 @@ import { Action } from "./pages/action";
 import { ContactForm } from "./pages/form";
 import { Footer } from "./pages/footer";
 import { FloatingButton } from "./buttonFloat";
+import { Obrigado } from "./pages/thanks";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         />
         <Route path="/termos" element={<Termos />} />
         <Route path="/politica" element={<Politica />} />
+          <Route path="/obrigado" element={<Obrigado />} />
       </Routes>
       <Footer />
     </>
