@@ -41,7 +41,7 @@ export function Header() {
           </a>
         ))}
         <a
-          href="#orcamento"
+          href="#contato"
           className="text-white font-bold bg-green-800 hover:bg-green-500 py-1 px-3 rounded-md transition-colors duration-300"
         >
           Quero Orçar

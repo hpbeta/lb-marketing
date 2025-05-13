@@ -20,7 +20,7 @@ export function Hero() {
       </p>
 
       <a
-        href="#orcamento"
+        href="#contato"
         className="text-white font-bold mt-8 bg-green-800 hover:bg-green-500 hover:text-white  px-8 py-3 text-lg  rounded-md transition-colors duration-300"
       >
         Quero mais cliente agora -{">"}

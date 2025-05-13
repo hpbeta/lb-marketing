@@ -23,7 +23,7 @@ export function FloatingButton() {
 
   return (
     <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-40 animate-float">
-      <Button
+      <a href="#contato"
         onClick={scrollToForm}
         className="shadow-lg text-white font-medium rounded-full bg-green-800 hover:bg-green-700"
         style={{
@@ -32,7 +32,7 @@ export function FloatingButton() {
         }}
       >
         Quero Orçar Agora
-      </Button>
+      </a>
     </div>
   );
 }
