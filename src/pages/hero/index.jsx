@@ -1,6 +1,6 @@
 export function Hero() {
   return (
-    <main className="flex flex-col items-center max-w-4xl mx-auto p-8 mt-48">
+    <div className="flex flex-col items-center max-w-4xl mx-auto p-8 mt-48">
       <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-gray-800 animate-slide-down text-center leading-relaxed">
         <span className="text-red-500">📉</span> Sua empresa está estagnada no
         Instagram?
@@ -25,6 +25,6 @@ export function Hero() {
       >
         Quero mais cliente agora -{">"}
       </a>
-    </main>
+    </div>
   );
 }

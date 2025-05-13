@@ -22,7 +22,7 @@ export function Footer() {
 
           <div className="text-center md:text-right">
             <p className="mb-2">lucasb@lbmarketing.com.br</p>
-            <p className="mb-4"> (31) 9 9814-2446</p>
+            <p className="mb-4"> (31) 9 71682446</p>
             <p className="text-sm text-gray-400">CNPJ: 41.999.387/0001-19</p>
           </div>
         </div>

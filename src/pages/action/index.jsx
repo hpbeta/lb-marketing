@@ -13,7 +13,7 @@ export function Action() {
           💥 Agenda Limitada para Diagnósticos Gratuitos!
         </h2>
 
-        <div className="bg-white p-6 rounded-lg shadow-2xl mb-8">
+        <div className="bg-white px-6 py-9 rounded-lg shadow-2xl mb-8">
           <p className="text-lg text-gray-700 mb-6 leading-relaxed">
             Estamos selecionando empresas para receber uma análise gratuita do
             Instagram + sugestão de estratégia de tráfego personalizada.
@@ -29,12 +29,12 @@ export function Action() {
             👉 Garanta agora a sua análise exclusiva.
           </p>
 
-          <button
+          <a href="https://wa.me/5531971682446" target="_blank" rel="noopener noreferrer"
             onClick={scrollToForm}
             className="bg-green-800 hover:bg-green-700 rounded-md text-white px-12 py-4  text-lg"
           >
             Quero minha análise gratuita
-          </button>
+          </a>
         </div>
       </div>
     </section>
