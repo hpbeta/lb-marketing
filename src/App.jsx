@@ -35,7 +35,7 @@ function App() {
         />
         <Route path="/termos" element={<Termos />} />
         <Route path="/politica" element={<Politica />} />
-          <Route path="/obrigado" element={<Obrigado />} />
+        <Route path="/obrigado" element={<Obrigado />} />
       </Routes>
       <Footer />
     </>
