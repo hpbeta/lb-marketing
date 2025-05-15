@@ -42,6 +42,12 @@ export function ContactForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    // Dispara evento do pixel no envio do formulário
+    if (window.fbq) {
+      window.fbq("trackCustom", "BotaoTrafegoClick");
+      console.log("Pixel disparado no botão: Quero mais clientes com tráfego pago");
+    }
+
     const { name, instagram, segment, whatsapp } = formData;
 
     if (!name || !instagram || !segment || !whatsapp) {
@@ -154,9 +160,7 @@ export function ContactForm() {
             </div>
 
             <div>
-              <label htmlFor="revenue">
-                Faturamento médio mensal (opcional)
-              </label>
+              <label htmlFor="revenue">Faturamento médio mensal (opcional)</label>
               <select
                 id="revenue"
                 name="revenue"
@@ -174,6 +178,7 @@ export function ContactForm() {
             </div>
 
             <button
+              id="botao-trafego"
               type="submit"
               className="m-auto block text-white font-bold bg-green-800 hover:bg-green-500 hover:text-white py-3 px-5 rounded-md transition-colors duration-300"
             >
