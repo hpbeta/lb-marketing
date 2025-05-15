@@ -5,6 +5,8 @@
     <link rel="icon" href="./src/assets/lb-marketing.png" type="image/png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LB Marketing</title>
+
+    <!-- Facebook Pixel -->
     <script>
       !(function (f, b, e, v, n, t, s) {
         if (f.fbq) return;
@@ -23,20 +25,24 @@
         t.src = v;
         s = b.getElementsByTagName(e)[0];
         s.parentNode.insertBefore(t, s);
-      })(
-        window,
-        document,
-        "script",
-        "https://connect.facebook.net/en_US/fbevents.js"
-      );
+      })(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
 
       fbq("init", "2523837841282330");
       fbq("track", "PageView");
+    </script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WYL8Y17RHL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-WYL8Y17RHL');
     </script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-
   </body>
 </html>
